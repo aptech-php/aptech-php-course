@@ -1,0 +1,3 @@
+<?php
+
+// SUPER GLOBALS
