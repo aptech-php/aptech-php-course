@@ -13,3 +13,12 @@ foreach ($files as $key => $value) {
     }
 }
 echo "</ul>";
+?>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body><h1>1. PHP MVC EXERCISE</h1>
+    <p>Create the app </p>
+    </body>
+
+</html>
