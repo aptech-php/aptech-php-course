@@ -25,6 +25,7 @@ $uLastName = 'Ford';
 $uFirstName = 'Henry';
 $uEmail = "henry.ford@ford.com";
 $uRole = 2;
+$stmt->execute();
 
 echo "Using Prepared to insert new data successfully";
 
