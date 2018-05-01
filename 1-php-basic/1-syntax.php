@@ -41,6 +41,6 @@ echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
 This is a multiple-lines comment block
 that spans over multiple
 lines
-*/
+ */
 
 echo "Hello World";
