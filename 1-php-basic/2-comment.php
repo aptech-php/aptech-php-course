@@ -17,3 +17,5 @@ echo "<h1>2. COMMENT</h1>";
  * Nguyen Hai Nam - News Website
  */
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
+
+//Nguyen Hai Nam

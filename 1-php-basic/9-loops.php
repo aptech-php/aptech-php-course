@@ -70,3 +70,21 @@ echo "<h1>9. LOOPS</h1>";
  */
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
+
+$authors = [
+    [
+        "name" => "A",
+        "post_quantity" => 5,
+    ],
+    [
+        "name" => "B",
+        "post_quantity" => 2
+    ]
+];
+// var_dump($authors);
+echo "<br>";
+foreach ($authors as $key => $value) {
+    foreach ($value as $key => $v) {
+        echo "$v <br>";
+    }
+}

@@ -24,3 +24,8 @@ echo "<h1>5. CONSTANT</h1>";
  * echo "<br>" . MY_NAME;
  */
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
+
+$title1 = 888;
+define('title', 999);
+echo title . '<br>';
+echo TITLE;

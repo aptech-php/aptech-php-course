@@ -27,3 +27,13 @@ echo "<h1>4. VARIABLES</h1>";
  * print_r($myName . ' - ' . $myProject);
  */
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
+
+$myName = 'Nguyen Hai Nam';
+$myProject = 'News Website';
+echo "$myName - $myProject";
+echo '$myName - $myProject';
+print_r($myName . ' - ' . $myProject);
+echo "<br>";
+$emotion = 'met';
+echo "Hom nay toi met<br>";
+echo 'Hom nay toi' . $emotion;
