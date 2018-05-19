@@ -38,14 +38,3 @@ echo "<h1>10. FUNCTIONS</h1>";
 
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
 
-function quetNha($aiQuetNha, $isNhaSach)
-{
-    echo "$aiQuetNha va nha $isNhaSach<br>";
-}
-
-
-echo "Luc nay 12h trua<br>";
-$isNhaSach = " chua sach";
-quetNha("Nam", $isNhaSach);
-$isNhaSach = " da sach";
-quetNha("Nam", $isNhaSach);

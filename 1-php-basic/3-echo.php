@@ -28,5 +28,3 @@ echo "<h1>3. DISPLAY TO HTML</h1>";
  * echo "Nam Nguyen Hai - News Website";
  */
 echo "<br><br>DO EXERCISE INSIDE COMMENT CODE BELOW THIS LINE<hr>";
-
-echo 'Nguyen Hai Nam';
