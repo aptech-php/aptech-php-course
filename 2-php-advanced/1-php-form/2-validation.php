@@ -68,16 +68,26 @@ return $data;
 <head>
 </head>
 <body>
-<form action="<?php echo htmlspecialchars($_SERVER['HTTP_SELF']); ?>" method="POST">
-Name : <input type="text" name="name" value="<?php if ($nameErr || $emailErr || $genderErr) {echo $name;}?>" required>
+<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+Name : <input type="text" name="name" value="<?php if ($nameErr || $emailErr || $genderErr) {
+                                              echo $name;
+                                            } ?>" required>
 <span style="color:red;"><?php echo $nameErr; ?></span>
 <br>
-Email : <input type="email" name="email" value="<?php if ($nameErr || $emailErr || $genderErr) {echo $email;}?>" required>
+Email : <input type="email" name="email" value="<?php if ($nameErr || $emailErr || $genderErr) {
+                                                  echo $email;
+                                                } ?>" required>
 <span style="color:red;"><?php echo $emailErr; ?></span>
 <br>
-Gender : <input type="radio" name="gender" value="female" <?php if ($gender === "female" || empty($gender) || (!$nameErr && !$emailErr && !$genderErr)) {echo "checked";}?>>Female
-<input type="radio" name="gender" value="male" <?php if ($gender === "male" && ($nameErr || $emailErr || $genderErr)) {echo "checked";}?>>Male
-<span style="color:red;"><?php if ($nameErr || $emailErr || $genderErr) {echo $genderErr;}?></span>
+Gender : <input type="radio" name="gender" value="female" <?php if ($gender === "female" || empty($gender) || (!$nameErr && !$emailErr && !$genderErr)) {
+                                                            echo "checked";
+                                                          } ?>>Female
+<input type="radio" name="gender" value="male" <?php if ($gender === "male" && ($nameErr || $emailErr || $genderErr)) {
+                                                echo "checked";
+                                              } ?>>Male
+<span style="color:red;"><?php if ($nameErr || $emailErr || $genderErr) {
+                          echo $genderErr;
+                        } ?></span>
 <br>
 <button type="submit">Submit</button>
 </form>

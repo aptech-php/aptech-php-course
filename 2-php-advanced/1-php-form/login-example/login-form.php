@@ -30,7 +30,7 @@
                             Password
                         </span>
                     </div>
-                    <input name="password" type="password" class="form-control" placeholder="Input your Password">
+                    <input name="password" type="password" class="form-control" placeholder="Input your Password" >
                 </div>
                 <button type="submit" class="d-flex mx-auto btn btn-sm btn-primary mt-2">Login</button>
             </div>
