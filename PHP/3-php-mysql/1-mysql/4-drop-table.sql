@@ -1,8 +1,8 @@
 -- DROP TABLE --
 
 
--- EXERCISE 1 : DROP TABLE User;
-
+-- EXERCISE 1 : DROP TABLE Users, it's mean delete users table
 -- SUGGESTION :
-/* USE aptech_php;
-DROP TABLE apUser; */
+/*
+DROP TABLE aptech_php_12.users; 
+*/

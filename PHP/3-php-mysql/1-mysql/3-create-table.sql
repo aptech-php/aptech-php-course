@@ -1,15 +1,15 @@
 -- CREATE TABLE --
 -- EXERCISE 1 : CREATE TABLE User;
 -- SUGGESTION :
-/* USE aptech_php;
-CREATE TABLE apUser
+/*
+CREATE TABLE aptech_php_12.users
 (
-    uId int,
-    uLastName varchar(255),
-    uFirstName varchar(255),
-    uEmail varchar(255),
-    uRole int,
-    uState int,
-    uCreatedDate datetime,
-    uModifiedDate datetime
-) */
+    id int,
+    last_name varchar(255),
+    first_name varchar(255),
+    email varchar(255) unique,
+    created_at datetime,
+    modified_at datetime,
+    deleted_at datetime
+) 
+*/
