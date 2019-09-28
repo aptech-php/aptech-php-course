@@ -1,13 +1,12 @@
-# APTECH PHP COURSE
+# CHÀO MỪNG CÁC BẠN ĐẾN VỚI KHÓA HỌC APTECH PHP
 
-## WELCOME TO MY CLASS
+## LẬP TRÌNH ỨNG DỤNG WEBSITE SỬ DỤNG PHP, MYSQL VÀ LARAVEL
 
-### CHECK OUT DOCKER
+### HTML, CSS - BOOTSTRAP 4, JAVASCRIPT, PHP - LARAVEL, MYSQL
 
-> https://hub.docker.com/r/namnh06/lemp/
+### LIÊN HỆ
 
-### CONTACT
-
+* Website: https://namcoi.com
 * Phone : 0932 578 992
 * Email : namnh.developer@gmail.com
 * Skype : hainamdng
