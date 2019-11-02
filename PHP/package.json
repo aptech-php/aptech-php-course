@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/namnh06/aptech-php-course#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   }
